@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_cdltd_ccl1049_de.Feature_04321</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Feature_04321</name>
+        <script><![CDATA[var Feature_04321 = Class.create();
+Feature_04321.prototype = {
+    initialize: function() {},
+
+    sayHello: function() {
+        return "Hello!";
+    },
+
+    type: 'Feature_04321'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-15 00:37:09</sys_created_on>
+        <sys_id>5f15ea36944030107f447603e0103c2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Feature_04321</sys_name>
+        <sys_package display_value="CCL1049-DemoApp" source="x_cdltd_ccl1049_de">e78ddefa940030107f447603e0103ca2</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CCL1049-DemoApp">e78ddefa940030107f447603e0103ca2</sys_scope>
+        <sys_update_name>sys_script_include_5f15ea36944030107f447603e0103c2f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-15 00:37:09</sys_updated_on>
+    </sys_script_include>
+</record_update>
